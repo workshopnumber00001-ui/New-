@@ -3,14 +3,14 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "20783440"))
-API_HASH = environ.get("API_HASH", "5d95bcc06b5bb466dd8fb0efe2e0ce0a")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "34422904"))
+API_HASH = environ.get("API_HASH", "7e0002469784f47fc08a6b3d93d7ebed")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8874265143:AAG6AFp2dohqnYMRlA4BytQpbsC5PgwSd_4")
 
-OWNER = int(environ.get("OWNER", "7296804563"))
-CREDIT = environ.get("CREDIT", "『ᴀᴅᴍɪɴ』")
+OWNER = int(environ.get("OWNER", "5349573682"))
+CREDIT = environ.get("CREDIT", "Boss")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '7296804563').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '5349573682').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
 AUTH_USER = os.environ.get('AUTH_USERS', '7296804563,7782989389').split(',')
